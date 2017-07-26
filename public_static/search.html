@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>TVInfo</title>
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <link rel="stylesheet" href="https://bootswatch.com/cyborg/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesearch.css">
+</head>
+<body style="font-family: 'Handlee', cursive;">
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="newhome.html">Back to Home</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="jumbotron">
+        <h3 class="text-center" style="font-family: 'Handlee', cursive;">Search For Any TV show</h3><br>
+        <form id="searchForm">
+            <input type="text" class="form-control" id="searchText" placeholder="Search TV shows here...">
+        </form>
+    </div>
+</div>
+
+<div class="container">
+    <div id="movies" class="row"></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="ajax.js"></script>
+<script src="ajaxnew.js"></script>
+<script>
+    gettvs();
+</script>
+</body>
+</html>

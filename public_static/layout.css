@@ -1,0 +1,96 @@
+@media (min-width: 768px) {
+    .navbar-right{
+        margin-right: 15px;
+    }
+}
+body{
+    background: url("back3.jpg");
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed;
+}
+
+.navbar-default,.navbar{
+    box-shadow: 0 6px 6px -6px #CCC;
+}
+
+.navbar-custom{
+    background: rgba(255, 255, 255, 0.2); !important;
+
+    font-weight: 600;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #dfe5d7; !important;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 2px;
+}
+.glyphicon.glyphicon-search{
+    font-size: 20px;
+    margin-top: 2px;
+    color: brown;
+}
+.glyphicon.glyphicon-search:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.navbar-transparent{
+    background-color: transparent;
+    border-color: rgba(255,255,255,0.4);
+}
+
+.navbar-transparent {
+    color: rgba(255,255,255,0.8);
+    font-weight: 600;
+}
+
+.navbar-transparent .navbar-nav>li>a {
+    color: rgba(255,255,255,0.8);
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;}
+
+.navbar-nav>li>a:hover{
+    background-color: black;
+    color: black; !important;
+
+}
+.social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.social {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+#social-fb:hover {
+    color: #3B5998;
+}
+#social-tw:hover {
+    color: #4099FF;
+}
+#social-gp:hover {
+    color: #d34836;
+}
+#social-em:hover {
+    color: white;
+}
+
+#join,#explore{
+    background-color: maroon;
+}
+#join:hover ,#explore:hover{
+    background-color: firebrick;
+}

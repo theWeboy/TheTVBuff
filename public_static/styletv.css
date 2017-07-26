@@ -1,0 +1,11 @@
+body{
+    background: url("exploreback.jpg");
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed;
+    font-family: 'Handlee', cursive;
+
+}

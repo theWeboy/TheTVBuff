@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TheTVBuff</title>
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+    <link rel="stylesheet" href="https://bootswatch.com/cyborg/bootstrap.min.css">
+    <link rel="stylesheet" href="explore.css">
+    <link rel="stylesheet" href="stylesearch.css">
+</head>
+<body class="animated fadeIn" style="font-family: 'Handlee', cursive;">
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <a id="back" class="navbar-brand" href="newhome.html"><strong>Back to Home</strong></a>
+        </div>
+    </div>
+</nav>
+<div class="container" align="center" >
+<div class="col-md-12" >
+    <h3 style="font-family: 'Handlee', cursive;"><strong>Explore TV Shows</strong></h3>
+</div>
+</div>
+<div class="jumbotron" id="image" align="center">
+
+</div>
+<div class="container">
+    <div class="jumbotron">
+        <h3 class="text-center" style="font-family: 'Handlee', cursive;">Search For Any TV show</h3>
+        <form id="searchForm">
+            <input type="text" class="form-control" id="searchText" placeholder="Search TV shows here...">
+        </form>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4" id="popdiv">
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="pop"><strong>POPULAR</strong></button>
+        </div>
+        <div class="col-md-4" id="topdiv">
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="top"><strong>TOP RATED</strong></button>
+        </div>
+        <div class="col-md-4" id="airdiv">
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="air"><strong>ON AIR</strong></button>
+        </div>
+    </div>
+    <br><br>
+    <div id="movies" class="row"></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="ajaxnew.js"></script>
+<script src="explore.js"></script>
+
+</body>
+</html>

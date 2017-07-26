@@ -1,0 +1,12 @@
+
+html,
+
+#nav {
+    height: 70px;
+    background: transparent; // Transparent initial setting
+display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    transition: all ease .5s;
+}
